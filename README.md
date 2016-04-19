@@ -3,7 +3,7 @@ AngularJS TC Kimlik Numarası Doğrulama
 
 TC Kimlik No Doğrulama Algoritması
 
-Kural-1: Tüm karakterleri rakam olmalıdır.
+Kural-1: Tüm karakterleri rakam olmalıdır.<br>
 Kural-2: TC Kimlik numarası 11 basamaktan oluşmalıdır.
 Kural-3: İlk hanesi 0 olamaz.
 Kural-4: İlk 9 basamak arasındaki algoritma, 10. basmağı vermelidir.
