@@ -1,0 +1,18 @@
+<style>
+.messageCss {
+  color: #DD2C00;
+  font-size: 12px;
+  border-top: 1px solid #DD2C00;
+  background-color: #f5f5f5;
+  margin-top:10px;
+}
+</style>
+<div ng-app="app">
+    <div ng-controller="MainCtrl">
+        <input type="number" angular-validate-tckn ng-model="txtTcKimlikNo.text" placeholder="TC Kimlik No" required>
+  
+        <div ng-show="txtTcKimlikNo.status" class="messageCss">
+            {{txtTcKimlikNo.message}}
+        </div>
+    </div>
+</div>
